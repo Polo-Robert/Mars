@@ -1,0 +1,122 @@
+@media (max-width: 1220px) {
+    .advantages-text {
+        padding-left: 20px;
+    }
+    .footer__copy-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1050px){
+    .design__descr-list {
+        flex-wrap: wrap;
+    }
+    .descr__item {
+        margin: 0 auto 30px;
+    }
+}
+
+@media (max-width: 930px) {
+    .advantages__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .advantages-images {
+        width: 100%;
+    }
+
+    .advantages-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .advantages-title {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .advantages__descr-box {
+        text-align: center;
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .advantages-text {
+        margin: 0 auto 20px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .advantages-list__item {
+        width: 100%;
+    }
+
+    .advantages-list {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 705px) {
+    .statistics__item {
+        padding: 50px;
+    }
+    .video__play {
+        height: 325px;
+    }
+    .descr__item-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 415px) {
+    body {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .logo-img {
+        width: 85%;
+    }
+    .header__content__title {
+        font-size: 70px;
+        line-height: 85px;
+        margin-top: 20px;
+    } 
+
+    .button {
+        padding: 25px 50px;
+    }
+
+    .menu__link {
+        font-size: 30px;
+        line-height: 44px;
+        padding: 19px 10px 7px 0;
+        border-bottom: 3px solid #B70021;
+        display: block;
+        max-width: 368px;
+        min-width: 100%;
+    }
+    .menu__list {
+        width: 100%;
+    }
+    .slider .slick-dots {
+        margin: -38px auto 0;
+    }
+
+    .statistics__item {
+        padding: 25px 0;
+    }
+    .statistics {
+        margin: 55px 0 50px;
+    }
+    .video,
+    .design {
+        margin-bottom: 50px;
+    }
+    .video__play {
+        height: 250px;
+    }
+}
